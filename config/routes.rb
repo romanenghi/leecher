@@ -1,4 +1,16 @@
 Leecher::Application.routes.draw do
+  resources :products do as_routes end
+
+  resources :products
+
+  resources :product_distributor_details do as_routes end
+
+  resources :product_distributor_details
+
+  resources :distributors do as_routes end
+
+  resources :distributors
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
