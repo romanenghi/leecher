@@ -3,7 +3,12 @@ Leecher::Application.routes.draw do
 
   resources :products
 
-  resources :product_distributor_details do as_routes end
+  resources :product_distributor_details do 
+    member do
+      get 'get_data'
+    end
+    as_routes 
+  end
 
   resources :product_distributor_details
 

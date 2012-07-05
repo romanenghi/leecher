@@ -5,3 +5,8 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+Distributor.create(name: 'Heo')
+Distributor.create(name: 'Cosmic Group')
+Distributor.create(name: 'Hlj')
+

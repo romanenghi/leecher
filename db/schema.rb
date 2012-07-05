@@ -32,8 +32,11 @@ ActiveRecord::Schema.define(:version => 20120705163105) do
     t.string   "code"
     t.string   "name"
     t.string   "description"
-    t.datetime "created_at",  :null => false
-    t.datetime "updated_at",  :null => false
+    t.string   "barcode"
+    t.string   "price"
+    t.string   "defaultprice"
+    t.datetime "created_at",   :null => false
+    t.datetime "updated_at",   :null => false
   end
 
 end

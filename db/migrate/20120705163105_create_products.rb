@@ -4,6 +4,9 @@ class CreateProducts < ActiveRecord::Migration
       t.string :code
       t.string :name
       t.string :description
+      t.string :barcode
+      t.string :price
+      t.string :defaultprice
 
       t.timestamps
     end
